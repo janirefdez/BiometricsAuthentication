@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BiometricsAuthentication</string>
+    <string name="unlock_biometric_strong">Unlock with biometric strong</string>
+    <string name="unlock_biometric_weak">Unlock with biometric weak</string>
+    <string name="unlock_device_credential">Unlock with device credential</string>
+    <string name="unlock_biometric_weak_device">Unlock with biometric weak and device credential</string>
+    <string name="image_unlock">Image unlock</string>
+    <string name="prompt_info_title">Example App Authentication</string>
+    <string name="message_no_support_biometrics">Device does not support Biometrics.</string>
+    <string name="message_no_enrolled_biometrics">Device does not have any biometrics enrolled. Do the configuration in Settings.</string>
+    <string name="message_no_hardware_available">No Hardware available for Biometrics.</string>
+    <string name="message_error_security_update_required">A security vulnerability has been discovered with one or more hardware sensors. The affected sensor(s) are unavailable until a security update has addressed the issue.</string>
+    <string name="message_hardware_unavailable">hardware is unavailable. Try again later.</string>
+    <string name="error_unknown">Unknown error.</string>
+    <string name="cancel">Cancel</string>
+</resources>
