@@ -30,7 +30,10 @@ There are multiple options to display biometrics prompt. In this example there a
  <img width="250" alt="image" src="https://user-images.githubusercontent.com/20024632/161522864-290b42cd-b38f-4b5c-9052-769a8ce6681d.png">
 
 ## Notes
-Prompt's description can be modified `setDescription("New Description")`
+- Prompt's description can be modified `setDescription("New Description")`
+  - In this case it has not been modified, so in the screenshots you can see that the description is in another language.
+The description is set to the default value and is set to the language of the device.
+
 ```
 BiometricPrompt.PromptInfo.Builder().apply {
             setTitle(activity.getString(R.string.prompt_info_title))
@@ -39,8 +42,10 @@ BiometricPrompt.PromptInfo.Builder().apply {
             setConfirmationRequired(false)
         }.build()
 ```
-In this case it has not been modified, so in the screenshots you can see that the description is in another language.
-The description is set to the default value and is set to the language of the device.
 
-Same in option `Unlock with Biometric Weak and Device Credential`, the device credential authentication button 
+- Same in option `Unlock with Biometric Weak and Device Credential`, the device credential authentication button 
 is set based on the device settings (pattern or PIN code) and also set based on the device language.
+
+
+- This example has been done with Biometric Library `'androidx.biometric:biometric-ktx:1.2.0-alpha04'`
+- To know more about biometrics check this [link](https://developer.android.com/training/sign-in/biometric-auth)
